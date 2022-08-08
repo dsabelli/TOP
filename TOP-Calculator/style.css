@@ -1,0 +1,95 @@
+body {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(6, 50px);
+  grid-template-areas:
+    "display display display display"
+    "btn-1 btn-2 btn-3 btn-4"
+    "btn-5 btn-6 btn-7 btn-8"
+    "btn-9 btn-10 btn-11 btn-12"
+    "btn-13 btn-14 btn-15 btn-16"
+    "btn-17 btn-17 btn-18 btn-19";
+}
+
+.display {
+  grid-area: display;
+  text-align: end;
+  font-size: 2rem;
+  border: 1px solid black;
+}
+
+.output {
+  margin-top: 0.25em;
+  margin-right: 0.45em;
+}
+
+button {
+  border: 1px solid black;
+}
+
+button:active {
+  background-color: gray;
+}
+
+.btn-1 {
+  grid-area: btn-1;
+}
+.btn-2 {
+  grid-area: btn-2;
+}
+.btn-3 {
+  grid-area: btn-3;
+}
+.btn-4 {
+  grid-area: btn-4;
+}
+.btn-5 {
+  grid-area: btn-5;
+}
+.btn-6 {
+  grid-area: btn-6;
+}
+.btn-7 {
+  grid-area: btn-7;
+}
+.btn-8 {
+  grid-area: btn-8;
+}
+.btn-9 {
+  grid-area: btn-9;
+}
+.btn-10 {
+  grid-area: btn-10;
+}
+.btn-11 {
+  grid-area: btn-11;
+}
+.btn-12 {
+  grid-area: btn-12;
+}
+.btn-13 {
+  grid-area: btn-13;
+}
+.btn-14 {
+  grid-area: btn-14;
+}
+.btn-15 {
+  grid-area: btn-15;
+}
+.btn-16 {
+  grid-area: btn-16;
+}
+.btn-17 {
+  grid-area: btn-17;
+}
+.btn-18 {
+  grid-area: btn-18;
+}
+.btn-19 {
+  grid-area: btn-19;
+}

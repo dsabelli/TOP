@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="p-4 grid grid-cols-6">
+      <nav class="col-span-1 row-span-2">
+        <h1 class="text-xl mb-4">
+          <i class="fa-solid fa-gauge"></i><span class="ml-4"></span> Dashboard
+        </h1>
+        <ul class="">
+          <li>
+            <i class="fa-solid fa-house"></i><span class="ml-4"></span>Home
+          </li>
+          <li>
+            <i class="fa-solid fa-address-card"></i
+            ><span class="ml-4"></span>Profile
+          </li>
+          <li>
+            <i class="fa-solid fa-message"></i
+            ><span class="ml-4"></span>Messages
+          </li>
+          <li>
+            <i class="fa-solid fa-clock-rotate-left"></i
+            ><span class="ml-4"></span>History
+          </li>
+          <li>
+            <i class="fa-solid fa-list-check"></i
+            ><span class="ml-4"></span>Tasks
+          </li>
+          <li>
+            <i class="fa-solid fa-users w-4"></i
+            ><span class="ml-4"></span>Communities
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <i class="fa-solid fa-gear"></i><span class="ml-4"></span>Settings
+          </li>
+          <li>
+            <i class="fa-solid fa-circle-question"></i
+            ><span class="ml-4"></span>Support
+          </li>
+          <li>
+            <i class="fa-solid fa-shield"></i><span class="ml-4"></span>Privacy
+          </li>
+        </ul>
+      </nav>
+      <header class="col-span-5 row-span-1 w-full flex-col">
+        <div class="grid grid-cols-6">
+          <div class="flex col-span-4">
+            <label for="search"
+              ><i
+                class="fa-solid fa-magnifying-glass cursor-pointer"
+              ></i></label
+            ><input
+              class="border-green-900 border rounded-full"
+              type="search"
+              name="search"
+              id="search"
+            />
+          </div>
+          <div class="flex col-span-2">
+            <button><i class="fa-solid fa-bell text-3xl"></i></button>
+            <img
+              class="w-12 h-12 rounded-full"
+              src="https://images.unsplash.com/photo-1576518985149-4f63dfabf9d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              alt=""
+            />
+            <p class="text-xl font-bold">Dan Sabelli</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-6">
+          <div class="flex col-span-3">
+            <img
+              class="w-20 h-20 rounded-full"
+              src="https://images.unsplash.com/photo-1576518985149-4f63dfabf9d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              alt=""
+            />
+            <div class="">
+              <p class="text-md font-semibold">Hi there,</p>
+              <h2 class="text-2xl font-semibold">Dan Sabelli (@dsabelli)</h2>
+            </div>
+          </div>
+          <div class="col-span-1"></div>
+          <div class="flex col-span-1">
+            <button>New</button><button>Upload</button><button>Share</button>
+          </div>
+        </div>
+      </header>
+      <main
+        class="bg-slate-200 col-span-4 grid grid-cols-2 grid-rows-3 gap-6 p-8"
+      >
+        <div
+          class="bg-white p-4 border-l-8 border-solid border-amber-500 rounded-lg shadow-md"
+        >
+          <h4 class="text-lg font-semibold">Project 1</h4>
+          <p class="mb-4 text-xs text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            doloremque porro animi corrupti velit?
+          </p>
+          <div class="flex gap-5 items-center justify-end">
+            <button><i class="fa-solid fa-star"></i></button
+            ><button><i class="fa-solid fa-eye"></i></button
+            ><i class="fa-solid fa-code-fork w-5"></i><button></button>
+          </div>
+        </div>
+        <div
+          class="bg-white p-4 border-l-8 border-solid border-amber-500 rounded-lg shadow-md"
+        >
+          <h4 class="text-lg font-semibold">Project 2</h4>
+          <p class="mb-4 text-xs text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            doloremque porro animi corrupti velit?
+          </p>
+          <div class="flex gap-5 items-center justify-end">
+            <button><i class="fa-solid fa-star"></i></button
+            ><button><i class="fa-solid fa-eye"></i></button
+            ><i class="fa-solid fa-code-fork w-5"></i><button></button>
+          </div>
+        </div>
+        <div
+          class="bg-white p-4 border-l-8 border-solid border-amber-500 rounded-lg shadow-md"
+        >
+          <h4 class="text-lg font-semibold">Project 3</h4>
+          <p class="mb-4 text-xs text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            doloremque porro animi corrupti velit?
+          </p>
+          <div class="flex gap-5 items-center justify-end">
+            <button><i class="fa-solid fa-star"></i></button
+            ><button><i class="fa-solid fa-eye"></i></button
+            ><i class="fa-solid fa-code-fork w-5"></i><button></button>
+          </div>
+        </div>
+        <div
+          class="bg-white p-4 border-l-8 border-solid border-amber-500 rounded-lg shadow-md"
+        >
+          <h4 class="text-lg font-semibold">Project 4</h4>
+          <p class="mb-4 text-xs text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            doloremque porro animi corrupti velit?
+          </p>
+          <div class="flex gap-5 items-center justify-end">
+            <button><i class="fa-solid fa-star"></i></button
+            ><button><i class="fa-solid fa-eye"></i></button
+            ><i class="fa-solid fa-code-fork w-5"></i><button></button>
+          </div>
+        </div>
+        <div
+          class="bg-white p-4 border-l-8 border-solid border-amber-500 rounded-lg shadow-md"
+        >
+          <h4 class="text-lg font-semibold">Project 5</h4>
+          <p class="mb-4 text-xs text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            doloremque porro animi corrupti velit?
+          </p>
+          <div class="flex gap-5 items-center justify-end">
+            <button><i class="fa-solid fa-star"></i></button
+            ><button><i class="fa-solid fa-eye"></i></button
+            ><i class="fa-solid fa-code-fork w-5"></i><button></button>
+          </div>
+        </div>
+        <div
+          class="bg-white p-4 border-l-8 border-solid border-amber-500 rounded-lg shadow-md"
+        >
+          <h4 class="text-lg font-semibold">Project 6</h4>
+          <p class="mb-4 text-xs text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            doloremque porro animi corrupti velit?
+          </p>
+          <div class="flex gap-5 items-center justify-end">
+            <button><i class="fa-solid fa-star"></i></button
+            ><button><i class="fa-solid fa-eye"></i></button
+            ><i class="fa-solid fa-code-fork w-5"></i><button></button>
+          </div>
+        </div>
+      </main>
+      <div class="section col-span-1 grid grid-rows-4 gap-6 p-4">
+        <div class="shadow-md row-span-2"></div>
+
+        <div class="shadow-md row-span-2"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 360px;
+  height: 320px;
+}
+.grid div {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+}
